@@ -1,4 +1,4 @@
-# Programming in C Lab Codes
+# 📘 Programming in C Lab Codes
 
 1. Calculator
 
