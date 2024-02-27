@@ -15,3 +15,10 @@
 8. WAP to perform the following expressions
     - b = b \* sqrt(4ac)
     - b = a^2 + bc
+9. Write a menu driven program to find the area of 2D geomerty and 3D geomerty shape
+    - square
+    - circle
+    - rectangle
+    - cone
+    - cylinder
+10. WAP to print fibonacci series upto n terms
