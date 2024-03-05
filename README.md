@@ -22,3 +22,6 @@
     - cone
     - cylinder
 10. WAP to print fibonacci series upto n terms
+11. WAP to input number from the user and calculate the sum of digits of a number
+12. WAP to input number from the user and find the reverse of the number
+13. WAP to check whether a number is palindrome
