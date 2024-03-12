@@ -39,7 +39,6 @@ int main()
         scanf("%f", &square_side);
 
         area = pow(square_side, 2);
-        printf("Area: %f", area);
 
         break;
 
@@ -48,7 +47,6 @@ int main()
         scanf("%f", &circle_radius);
 
         area = 3.14 * pow(circle_radius, 2);
-        printf("Area: %f", area);
 
         break;
     case 3:
@@ -59,7 +57,6 @@ int main()
         scanf("%f", &rect_width);
 
         area = rect_length * rect_width;
-        printf("Area: %f", area);
 
         break;
     case 4:
@@ -70,7 +67,6 @@ int main()
         scanf("%f", &cone_slant_height);
 
         area = 3.14 * cone_radius * cone_slant_height + 3.14 * pow(cone_radius, 2);
-        printf("Area: %f", area);
 
         break;
     case 5:
@@ -81,15 +77,16 @@ int main()
         scanf("%f", &cylinder_height);
 
         area = 2 * (3.14 * pow(cylinder_radius, 2)) + 3.14 * cylinder_radius * cylinder_height;
-        printf("Area: %f", area);
 
         break;
 
     default:
-        printf("Invalid Input");
+        printf("Invalid Input\n");
 
         break;
     }
+
+    printf("Area: %f\n", area);
 
     return 0;
 }

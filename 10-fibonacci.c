@@ -14,7 +14,7 @@ int main()
     printf("%d ", first);
     printf("%d ", second);
 
-    for (int i = 0; i < n - 2; i++)
+    for (int i = 2; i < n; i++)
     {
         sum = first + second;
         printf("%d ", sum);
