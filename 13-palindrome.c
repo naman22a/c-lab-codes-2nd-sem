@@ -7,14 +7,14 @@ int main()
 
     int temp = n;
 
-    while (n != 0)
+    while (temp != 0)
     {
-        int digit = n % 10;
+        int digit = temp % 10;
         r = r * 10 + digit;
-        n = n / 10;
+        temp = temp / 10;
     }
 
-    if (r == temp)
+    if (n == r)
         printf("Yup\n");
     else
         printf("Nope\n");
