@@ -6,11 +6,11 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
 
-    for (int i = n; i > 0; i--)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = n; j >= i; j--)
+        for (int j = 1; j <= i; j++)
         {
-            printf("%d ", j);
+            printf("%d ", n - j + 1);
         }
         printf("\n");
     }

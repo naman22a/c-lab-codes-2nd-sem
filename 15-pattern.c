@@ -6,9 +6,9 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
 
-    for (int i = 1; i <= 5; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = 5; j >= i; j--)
+        for (int j = 1; j <= n - i + 1; j++)
         {
             printf("%d ", i);
         }
