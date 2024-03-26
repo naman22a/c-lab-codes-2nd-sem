@@ -45,8 +45,8 @@
 5
 ```
 
-16. WAP to find the sum of series: 1 <sup>2</sup> + 2 <sup>2</sup> + 3 <sup>2</sup> + ..... n <sup>2</sup>
-17. WAP to find the sum of series: 1 + x <sup>2</sup>/2! + x <sup>3</sup>/3! + x <sup>4</sup>/4! + ..... + x <sup>n</sup>/n!
+16. WAP to find the sum of series: 1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + ..... n<sup>2</sup>
+17. WAP to find the sum of series: 1 + x<sup>2</sup>/2! + x<sup>3</sup>/3! + x<sup>4</sup>/4! + ..... + x<sup>n</sup>/n!
 18. Write a menu driven program for matrices to do the following operation depending on whether the operation requires one or two matrices
     -   a. Addtion of two matrices
     -   b. Subtraction of two matrices
