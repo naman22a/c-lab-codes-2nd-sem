@@ -53,3 +53,6 @@
     -   c. Finding upper and low triangular matrices
     -   d. Transpose of a matrix
     -   e. Product of two matrices
+19. WAP a program to check whether string is palindrome or not
+20. WAP for Linear search
+21. WAP Binary search
