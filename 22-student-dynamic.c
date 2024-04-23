@@ -12,15 +12,11 @@ struct Student
 
 int main()
 {
-    // struct Student students[100];
-    struct Student *students;
-
     int n;
-
     printf("Enter n: ");
     scanf("%d", &n);
 
-    students = (struct Student *)malloc(n * sizeof(struct Student));
+    struct Student *students = (struct Student *)malloc(n * sizeof(struct Student));
 
     // input students
     for (int i = 0; i < n; i++)

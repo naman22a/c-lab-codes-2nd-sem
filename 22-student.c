@@ -11,11 +11,11 @@ struct Student
 
 int main()
 {
-    struct Student students[100];
     int n;
-
     printf("Enter n: ");
     scanf("%d", &n);
+
+    struct Student students[100];
 
     // input students
     for (int i = 0; i < n; i++)
