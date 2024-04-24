@@ -18,6 +18,13 @@ int main()
 
     struct Student *students = (struct Student *)malloc(n * sizeof(struct Student));
 
+    // check if memory is full
+    if (students == NULL)
+    {
+        printf("Memory was not allocated");
+        exit(0);
+    }
+
     // input students
     for (int i = 0; i < n; i++)
     {
