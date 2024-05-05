@@ -54,5 +54,8 @@ int main()
         printf("Percentage: %f\n", students[i].percentage);
     }
 
+    // free the allocated memory from the students array
+    free(students);
+
     return 0;
 }
