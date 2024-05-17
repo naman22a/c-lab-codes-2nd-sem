@@ -56,6 +56,7 @@ int main()
 
     // free the allocated memory from the students array
     free(students);
+    students = NULL; // fix dangling pointer
 
     return 0;
 }
