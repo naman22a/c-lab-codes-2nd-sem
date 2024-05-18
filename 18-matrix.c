@@ -215,7 +215,7 @@ int main()
         {
             for (int j = 0; j < m1_cols; j++)
             {
-                if (i >= j)
+                if (i <= j)
                     printf("%d ", m1[i][j]);
                 else
                     printf("%d ", 0);
@@ -232,7 +232,7 @@ int main()
         {
             for (int j = 0; j < m1_cols; j++)
             {
-                if (i <= j)
+                if (i >= j)
                     printf("%d ", m1[i][j]);
                 else
                     printf("%d ", 0);
