@@ -81,7 +81,7 @@ int main()
         break;
 
     default:
-        printf("Invalid Input\n");
+        printf("Invalid Input Entered. PLease Enter a valid input.\n");
 
         break;
     }
