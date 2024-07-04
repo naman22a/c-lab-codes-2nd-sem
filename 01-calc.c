@@ -18,7 +18,7 @@ int main()
     printf("The value of (a - b) is %f\n", num1 - num2);
     printf("The value of (a * b) is %f\n", num1 * num2);
     printf("The value of (a / b) is %f\n", num1 / num2);
-    printf("The value of (a modulus b) is %d\n", (int)num1 % (int)num2);
+    printf("The value of (a modulo b) is %d\n", (int)num1 % (int)num2);
 
     return 0;
 }
